@@ -24,8 +24,8 @@ public class Cracker {
 	        String user = scan.nextLine();
 			//String userline = "";
 	        long startTime = System.currentTimeMillis();
-			String log = "/Users/Scott/eclipse-workspace/Final/userlog.txt";
-			String dict = "/Users/Scott/eclipse-workspace/Final/dictionary.txt";
+			String log = "userlog.txt";
+			String dict = "dictionary.txt";
 			String lines = "";
 			//String guess = "";
 			String[] nums = {"0","1","2","3","4","5","6","7","8","9",""};
