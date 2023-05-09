@@ -24,7 +24,7 @@ public class User_Login {
 	        String user = scan.nextLine();
 			String userline = "";
 	        
-			String file = "/Users/Scott/eclipse-workspace/Final/userlog.txt";
+			String file = "userlog.txt";
 			
 			List<String> list = new ArrayList<>();
 			
