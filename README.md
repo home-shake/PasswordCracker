@@ -8,7 +8,7 @@ User must provide dictionary.txt
 
 To start: Create user with User_Login.java: creates username:MD5'd password file
 User_Login is just a simple hash comparison to saved file and entered password
-Cracker takes the MD5 from 
+Cracker takes the MD5 from assosiated user in userlog.txt and begins brute forcing until ur pc explodes or it finds the password.
 
 
 Extreme time-complexity here. Im talking like O(n!^4) if that's even a thing. Will take hours if the dictionary word starts with a C or below. Not meant to be practical!
