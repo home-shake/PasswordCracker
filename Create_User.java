@@ -24,7 +24,7 @@ public class Create_User {
 	        FileWriter fWriter = null;
 	        BufferedWriter writer = null;
 	        
-	        Scanner scanner = new Scanner(new File("/Users/Scott/eclipse-workspace/Final/userlog.txt"));
+	        Scanner scanner = new Scanner(new File("userlog.txt"));
 	        String lines = "";
 	        boolean checkExists = false;
 	        
@@ -60,8 +60,8 @@ public class Create_User {
 
 	          
 	          
-	          Scanner scanner2 = new Scanner(new File("/Users/Scott/eclipse-workspace/Final/dictionary.txt"));
-	          Scanner scanner3 = new Scanner(new File("/Users/Scott/eclipse-workspace/Final/dictionary.txt"));
+	          Scanner scanner2 = new Scanner(new File("dictionary.txt"));
+	          Scanner scanner3 = new Scanner(new File("dictionary.txt"));
 	          String passMatch ="";
 	          String baseword = "";
 	          String strength = "";
